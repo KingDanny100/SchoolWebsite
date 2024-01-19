@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kablammo&display=swap");
+
+/* red #D71313 yellow #F0DE36 #0D1282 white #EEEDED*/
+.about_head {
+  background: linear-gradient(
+      rgb(13, 18, 130, 0.8),
+      rgb(13, 18, 130),
+      transparent,
+      transparent
+    ),
+    url(../../../Images/class2.avif);
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  clip-path: polygon(0 0, 100% 0%, 100% 76%, 0 100%);
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  padding-left: 11px;
+}
+.about_head h1 {
+  font-family: "Slackey", sans-serif;
+  color: #eeeded;
+  margin-top: 100px;
+  margin-bottom: 15px;
+}
+.about_head h2 {
+  font-family: "Comfortaa", sans-serif;
+  color: #f0de36;
+  width: 95%;
+  max-width: 400px;
+}
+.about_container {
+  /* background-color: red; */
+  font-family: "Comfortaa", sans-serif;
+}
+.about_container h2 {
+  font-family: "Kablammo", sans-serif;
+  /* margin-bottom: 30px; */
+  font-size: 30px;
+  padding-left: 10px;
+  color: #d71313;
+  /* max-width: 800px; */
+  margin: 10px auto 30px;
+}
+/* .aboutcard_container{
+    background-color: #0D1282;
+} */
+.location_div {
+  padding: 5px 10px;
+  /* max-width: 800px; */
+  margin: 10px auto;
+}
+.location_div h3 {
+  margin-bottom: 20px;
+  color: #0d1282;
+}
+.location_div p {
+  margin-bottom: 15px;
+  /* color: #D71313; */
+  /* color: #F0DE36; */
+  /* background-color: #0D1282; */
+  padding: 10px 0;
+}
+.about_card {
+  width: 100%;
+  padding: 10px;
+  max-width: 800px;
+  margin: 0 auto;
+  /* background-color: #EEEDED; */
+}
+.about_card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+.about_icons {
+  margin: 0 auto;
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+/* .about_info{
+} */
+.about_info h4 {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  color: #d71313;
+  font-weight: bolder;
+}
+.about_info li {
+  margin-left: 30px;
+  list-style: disc;
+  margin-bottom: 5px;
+}
+.misson {
+  color: #d71313;
+  font-size: 22px;
+  width: 80%;
+  margin: 45px auto 10px;
+  padding: 20px 0 20px 20px;
+  border-left: 4px solid #0d1282;
+  letter-spacing: 1.2px;
+  max-width: 600px;
+}
+.mission_head {
+  color: #0d1282;
+}
+
+@media screen and (min-width: 800px) {
+  .about_head h1 {
+    font-size: 40px;
+  }
+  .about_head h2 {
+    font-size: 30px;
+  }
+  .about_container h2 {
+    font-size: 50px;
+    padding-left: 30px;
+  }
+  .location_div h3 {
+    font-size: 25px;
+    padding: 0 25px;
+  }
+  .location_div p {
+    font-size: 20px;
+    padding: 0 25px;
+  }
+  .about_card img {
+    height: 400px;
+  }
+  .about_info {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    /* background-color: red; */
+  }
+  .about_info h4 {
+    width: unset;
+    margin: unset;
+    width: 20%;
+    /* background-color: green; */
+  }
+  .about_info ul {
+    width: unset;
+    width: 80%;
+    /* background-color: green; */
+  }
+  .about_icons {
+    position: absolute;
+  }
+  .about_icons * {
+    position: absolute;
+    top: 50%;
+  }
+}

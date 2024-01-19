@@ -1,0 +1,17 @@
+.footer_container{
+    background-color:  #0d1282;
+    color: #F0DE36;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Slackey", sans-serif;
+}
+.footer_container p{
+    text-align: center;
+}
+.media_icons{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 5px;
+}

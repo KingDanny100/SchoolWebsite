@@ -1,0 +1,195 @@
+.program_container{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.program_container > h4{
+    font-family: 'Sarpanch', sans-serif;
+    font-size: 24px;
+    width: 70%;
+    margin-bottom: 10px;
+}
+.left_data > p{
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 15px;
+}
+hr{
+    border: 1px solid;
+}
+.data_story{
+    margin-top: 10px;
+}
+.data_story h3{
+    font-family: 'Sarpanch', sans-serif;
+    font-size: 21px;
+    font-weight: bolder;
+    margin-bottom: 8px;
+    text-decoration: underline #f0de36;
+}
+.data_story p{
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif; 
+}
+.right_data{
+    margin-top: 10px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr;
+}
+.tiny_box{
+    width: 20%;
+    height: 25px;
+    max-width: 130px;
+    background-color: #d71313;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.info{
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;  
+    /* color: #f0de36;   */
+}
+.school_info{
+    font-weight: bold;
+    margin-top: 15px;
+    color: #0d1282;
+    font-family: 'Sarpanch', sans-serif;
+}
+
+@media screen and (min-width: 370px){
+    .right_data{
+        margin-top: 25px;
+    }
+
+}
+@media screen and (min-width: 420px){
+    .right_data{
+        margin-top: 30px;
+    }
+    .left_data > p{
+        margin-bottom: 35px;
+    }
+
+}
+
+@media screen and (min-width: 430px){
+    .program_container{
+        padding: 10px 20px;
+    }
+    .program_container > h4{ 
+        font-size: 26px;
+        width: 80%;
+        margin-bottom: 10px;
+    }
+    .data_story{
+        margin-bottom: 50px;
+    }
+    .data_story h3{
+        font-size: 23px;
+        margin-bottom: 15px;
+    }
+    .left_data > p{
+        margin-bottom: 40px;
+    }
+    /* .tiny_box{
+        width: 70px;
+        height: 25px;
+        
+       
+    } */
+}
+@media screen and (min-width: 770px){
+   
+    .program_container{
+        padding: 10px 20px;
+    }
+    .program_container > h4{ 
+        font-size: 26px;
+        width: 80%;
+        margin-bottom: 10px;
+    }
+    .all_data{
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+        /* background-color: red; */
+    }
+    .left_data{
+        width: 25%;
+        margin: unset;
+        padding: unset;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* height: 300px; */
+    }
+    .right_data{
+        width: 75%;
+        margin: unset;
+        padding: unset;
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 1fr 1fr 1fr;
+        height: 300px;
+    }
+    
+    .data_story {
+        padding: unset;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* background-color: blue; */
+        margin: unset;
+        /* height: 50%; */
+    }
+    .left_data> p{
+        /* background-color: red; */
+        height: 50%;
+    }
+    .data_story p{
+        margin: unset;
+    }
+    .right_data > :nth-child(4){
+        grid-column: span 2;
+    }
+    .box{
+        margin: unset;
+        height: unset;
+        /* background-color: green; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-bottom: 20px;
+    }
+    .tiny_box{
+        width: unset;
+        margin: unset;
+        width: 30px;
+        height: 20px;
+        margin-bottom: 10px;
+    }
+    .info{
+        /* background-color: green; */
+        height: 80%;
+    }
+    .school_info{
+        margin-top: 0;
+    }
+    .data_story{
+        margin-bottom: 50px;
+    }
+    .data_story h3{
+        font-size: 23px;
+        margin-bottom: 15px;
+    }
+    .left_data > p{
+        margin-bottom: 40px;
+    }
+    /* .tiny_box{
+        width: 70px;
+        height: 25px;
+        
+       
+    } */
+}
