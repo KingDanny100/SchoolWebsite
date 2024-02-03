@@ -40,7 +40,7 @@ function App() {
   return (
     <Router>
       <Navbar />
-      
+      <Home />
       <Routes>
         <Route exact path="/" Component={Home} />
         <Route exact path="/about" Component={About} />
