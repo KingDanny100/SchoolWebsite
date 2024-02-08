@@ -40,7 +40,6 @@ function App() {
   return (
     <Router basename="/SchoolWebsite/">
       <Navbar />
-      <Home />
       <Routes>
         <Route exact path="/" Component={Home} />
         <Route exact path="/about" Component={About} />
